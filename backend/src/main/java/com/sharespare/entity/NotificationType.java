@@ -1,0 +1,14 @@
+package com.sharespare.entity;
+
+public enum NotificationType {
+    BOOKING_CREATED,
+    BOOKING_CONFIRMED,
+    BOOKING_CANCELLED,
+    PAYMENT_SUCCESS,
+    HANDOVER_READY,
+    HANDOVER_COMPLETED,
+    RETURN_REQUESTED,
+    DAMAGE_REPORTED,
+    REFUND_PROCESSED,
+    REVIEW_RECEIVED
+}
